@@ -1,4 +1,4 @@
-import { MongoGCPError } from "mongodb";
+
 import mongoose , {Schema} from "mongoose";
 
 const subscriptionSchema = new Schema({
@@ -14,4 +14,4 @@ const subscriptionSchema = new Schema({
 
 
 export const Subscription = mongoose.model("Subscription"
-    ,subscriptionSchema)
+    ,subscriptionSchema) 
